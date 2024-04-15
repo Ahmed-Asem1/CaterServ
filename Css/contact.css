@@ -1,0 +1,48 @@
+.contact{
+    padding: 11em 0;
+}
+.contact.show-animat{
+    animation: translateToTop 1.6s;
+}
+.contact .boxes{
+    background-color: var(--bg-section);
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+.contact .row button{
+    border: 1px solid var(--main-color);
+    padding: 2px 17px;
+}
+.contact .row h4{
+    font-family: "Playball";
+    font-size: 46px;
+}
+.contact .row p{
+    color: var(--third-color);
+}
+.contact .row input,
+.contact .row textarea{
+    background-color: var(--bg-section);
+    outline: none;
+    border: 1px solid var(--main-color);
+    border-radius: 7px !important;
+    padding: 15px;
+    color: var(--third-color);
+}
+.contact .row textarea{
+    min-height: 7em;
+}
+.contact .row input:focus,
+.contact .row textarea:focus{
+    box-shadow: 0 0 0 0.25rem rgba(212,167,98,.25) !important;
+}
+.contact .row .submit-now{
+    transition: 0.4s;
+}
+.contact .row .submit-now:hover{
+    background-color: black;
+    color: var(--main-color);
+}
+.contact .row .icon-address{
+    border-radius: 7px;
+    border: 1px solid var(--main-color);
+}

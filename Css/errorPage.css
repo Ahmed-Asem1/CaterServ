@@ -1,0 +1,26 @@
+.error{
+    padding: 13em 0;
+}
+.error h2{
+    font-size: 81px;
+}
+.error h3{
+    font-size: 40px;
+}
+.error p{
+    color: var(--third-color);
+    width: 48%;
+    margin: 20px auto 26px auto;
+}
+.error a{
+    transition: .4s;
+    padding: 10px 30px;
+}
+.error a:hover{
+    background-color: black;
+    color: var(--main-color) !important;
+}
+
+.error .box.show-animat{
+    animation: boxTranslateFromBottonErrorPage 3s;
+}
